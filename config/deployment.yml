@@ -38,7 +38,7 @@ metadata:
   name: static-example-service
   annotations:
     external-dns.alpha.kubernetes.io/hostname: "dank.dev"
-    service.beta.kubernetes.io/do-loadbalancer-certificate-id: "dank-dev-lets-encrypt-cert"
+    service.beta.kubernetes.io/do-loadbalancer-certificate-id: "c95ef352-b62a-444f-a19a-c30452ffed33"
     service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
 spec:
   type: LoadBalancer
